@@ -1,0 +1,29 @@
+.card {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.card__image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.card__body {
+  padding: 1rem;
+}
+
+.card__title {
+  margin: 0 0 0.5rem;
+  font-size: 1.125rem;
+  color: #111827;
+}
+
+.card__description {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
